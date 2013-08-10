@@ -53,3 +53,21 @@ img {
 .portfolio-piece h4 {
     margin-top: 5px;
 }
+
+.ui-content {
+	background-image:url(../img/bg.jpg);
+	background-position:center;
+	background-size: cover;
+	background-position:top left;
+	
+}
+
+.ui-btn-inner
+{
+	background-color: #dbe1e6;
+}
+
+.footer
+{
+	position-bottom: 0px;
+}
