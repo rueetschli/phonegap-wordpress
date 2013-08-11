@@ -82,7 +82,9 @@ img {
 	border-bottom:#999  1pt solid;
 }
 
-.ui-btn-up-c
+.ui-btn-text
 {
-	color: #000;
+	color: #fff;
+	text-shadow: 0 1px 0 #000;
+	font-weight:100;
 }
