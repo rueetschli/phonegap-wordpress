@@ -64,10 +64,25 @@ img {
 
 .ui-btn-inner
 {
-	background-color: #dbe1e6;
+	/*background-color: #dbe1e6; */
+	background-image:url(../img/tabBg.jpg);
+	background-size: contain;
 }
 
 .footer
 {
 	position-bottom: 0px;
+}
+
+
+.ui-bar-a
+{
+	background-image:url(../img/tabBg.jpg);
+	background-size: contain;
+	border-bottom:#999  1pt solid;
+}
+
+.ui-btn-up-c
+{
+	color: #000;
 }
