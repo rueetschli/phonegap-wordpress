@@ -5,40 +5,24 @@
         <meta name="format-detection" content="telephone=no" />
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=medium-dpi" />
         <link rel="stylesheet" type="text/css" href="css/jqm.css" />
-        <link rel="stylesheet" type="text/css" href="css/index.css" />
-        
-        <link rel="stylesheet" href="css/jPages.css">
-        <script src="js/jPages.js"></script>
-        
+        <link rel="stylesheet" type="text/css" href="css/index.css" />       
         <title>Portfolio</title>
     </head>
-    <body>
-    
+    <body>    
     <div id="portfolio-page" data-role="page">
     <div data-role="header">
         <h1><i class="icon-home"></i>EAG</h1>
     </div><!-- /#header -->
    
-   <div id="top">
-   </div>
-    
-    <div id="portfolio-content" data-role="content">
-    
-     <!-- Future navigation panel -->
-        
    
+    <div id="portfolio-content" data-role="content">
         
-        <a data-role="button" data-transition="slide" href="index.html">Home</a>
-        <a data-role="button" data-transition="slide" href="blog.html">Blog</a>
-        <a data-role="button" data-transition="slide" href="portfolio.html">My Work</a>
-        <a data-role="button" data-transition="slide" href="contact.html">Contact</a>
+		<a data-role="button" href="index.html">Home</a>
+        <a data-role="button" href="blog.html">Blog</a>
+        <a data-role="button" href="portfolio.html">My Work</a>
+        <a data-role="button" href="contact.html">Contact</a>
         
-        <div id="itemContainer">
         <div id="portfolio-data"></div>
-        
-        <div class="holder"></div>
-
-
         
       
         <script id="portfolio-template" type="text/x-handlebars-template">
@@ -50,10 +34,8 @@
                 <h4>{{title}}</h4>
                 </div>
             {{/each}}
-			</script>
-          
-                    
-    </div><!-- /#home-page --></script><br/></div>
+			</script>           
+<!-- /#home-page --><br/></div>
     
     <div id="footer" data-role="footer">
         <h1><i class="icon-coffee"></i> 2013 - built with phonegap and jquery mobile</h1>
