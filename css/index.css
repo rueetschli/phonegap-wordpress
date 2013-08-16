@@ -53,3 +53,38 @@ img {
 .portfolio-piece h4 {
     margin-top: 5px;
 }
+
+.ui-content {
+	background-image:url(../img/bg.jpg);
+	background-position:center;
+	background-size: cover;
+	background-position:top left;
+	
+}
+
+.ui-btn-inner
+{
+	/*background-color: #dbe1e6; */
+	background-image:url(../img/tabBg.jpg);
+	background-size: contain;
+}
+
+.footer
+{
+	position-bottom: 0px;
+}
+
+
+.ui-bar-a
+{
+	background-image:url(../img/tabBg.jpg);
+	background-size: contain;
+	border-bottom:#999  1pt solid;
+}
+
+.ui-btn-text
+{
+	color: #fff;
+	text-shadow: 0 1px 0 #000;
+	font-weight:100;
+}
